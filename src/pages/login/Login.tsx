@@ -70,9 +70,6 @@ export default function Login() {
       <Button onClick={handleLogin} mt="sm" fullWidth>
         Login
       </Button>
-      <Group position="center" mt="sm">
-        <Text size="sm">Forgot password?</Text>
-      </Group>
     </Card>
   );
 }
